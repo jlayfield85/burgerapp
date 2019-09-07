@@ -1,1 +1,14 @@
-<p>Connected to the server.</p>
+<div class = "container">
+    <div class="row">
+        <h1>EAT THE BURGER!</h1>
+    </div>
+    <div class="col-xs-6 text-center" class="task">
+        <div class="row">
+            {{#each burger_data}}
+                {{#unless this.devoured}}
+            <div class="col-xs-9 text-center">
+                <pre></pre>
+            </div>    
+        </div>
+    </div>
+</div>
